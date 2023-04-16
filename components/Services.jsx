@@ -1,20 +1,22 @@
 import React from "react";
 import Layout from "./Layout";
 import Image from "next/image";
+import { truncateString } from "./reuse/TruncateString";
 
 const Card = ({ imageSrc, title, description }) => {
   return (
     <div
       data-aos="fade-down"
-      className="max-w-sm-[42rem] xl:max-w-sm rounded overflow-hidden shadow-lg  mb-[6rem] xl:mb-0 h-[580px]"
+      className="max-w-sm-[42rem] xl:max-w-sm rounded overflow-hidden shadow-lg  mb-[6rem] xl:mb-0 h-[600px] "
     >
-      <img className="w-full lg:h-[204px] h-fit" src={imageSrc} alt={title} />
+      <img className="w-full lg:h-[205px] " src={imageSrc} alt={title} />
 
-      <div className="px-6 py-[2rem]">
+      <div className="px-4 py-[2rem]">
         <div className="font-bold text-[2.4rem] md:text-[2rem] leading-[1.2] my-[1rem] text-center">
           {title}
         </div>
-        <p className="text-gray-500 text-[16px] leading-[1.6] text-center">
+        <p className="text-gray-500 text-[15px] leading-[1.6] text-justify mt-[2rem]">
+          {/* {truncateString(description, 200)} */}
           {description}
         </p>
       </div>
@@ -24,7 +26,7 @@ const Card = ({ imageSrc, title, description }) => {
 
 const Services = () => {
   return (
-    <Layout>
+    <div className="max-w-[145rem] px-[3rem] mx-auto">
       <div className="py-8 my-[8rem] md:my-[10rem]" id="services">
         <h2 className="text-[4rem] md:text-[4.8rem] mb-[3rem] md:mb-[4rem] font-bold  text-center">
           Our Services
@@ -43,7 +45,7 @@ const Services = () => {
           ))}
         </div>
       </div>
-    </Layout>
+    </div>
   );
 };
 
