@@ -20,9 +20,10 @@ const Footer = () => {
                   />
                 </div>
                 <p className="text-[14px] lg:text-[15px] opacity-80 text-center lg:text-start">
-                  Mariel Miller has over 17 years of valuable experience in the
-                  legal community and insurance industry. He is not afraid to
-                  fight for justice for you and your family.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+                  ab quo facere, explicabo voluptatum aspernatur deserunt.
+                  Ullam, fuga a, dignissimos laborum fugit iste veniam possimus
+                  dolor voluptas, cumque optio saepe.
                 </p>
               </div>
             </div>
@@ -31,8 +32,8 @@ const Footer = () => {
             <div className="flex flex-col gap-[2rem] md:gap-[5rem] lg:gap-[9rem] py-[2.5rem] opacity-80">
               <h4 className="text-center lg:text-start">CONTACT INFO</h4>
               <p className="text-[14px] lg:text-[15px]  text-center lg:text-start">
-                Mariel Miller Espat & Johnson, P.A. 410 South Ware Blvd. Suite
-                #400 Tampa, FL 33619
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab eum
+                quaerat nesciunt facere blanditiis quam
               </p>
             </div>
 
