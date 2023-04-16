@@ -5,8 +5,11 @@ import Image from "next/image";
 const GetFeatured = () => {
   return (
     <Layout>
-      <div className="grid md:grid-cols-2 gap-[5rem] my-[8rem]" id="featured">
-        <div>
+      <div
+        className="grid md:grid-cols-2 gap-[5rem] my-[8rem] md:my-[10rem] py-8"
+        id="featured"
+      >
+        <div data-aos="fade-right">
           <Image
             src="/image/logos.png"
             alt="logos"
@@ -15,11 +18,15 @@ const GetFeatured = () => {
             className="w-full h-full"
           />
         </div>
-        <div>
-          <h2 className="text-blue-500 font-bold text-[3.5rem] md:text-[5rem] leading-[1.2] mb-[4rem] text-center md:text-start">
-            Get <br /> Featured
+
+        <div data-aos="fade-left">
+          <h2
+            className="text-blue-500  leading-[1.2]  text-center md:text-start text-[4rem] md:text-[4.8rem] mb-[3rem] md:mb-[4rem] font-bold  
+          "
+          >
+            Get Featured
           </h2>
-          <p className="text-[15px] text-center md:text-start md:text-[2rem] leading-[1.8] md:leading-[1.6]">
+          <p className="text-[15px] text-center md:text-start md:text-[2rem] leading-[1.8] md:leading-[1.6] text-gray-500">
             Getting articles featured and published in top online publications
             like Forbes, Fox, Business Insider, and others requires a strategic
             approach and careful planning. The first step is to identify the

@@ -98,3 +98,16 @@ body {
 .custom-clip-path {
   clip-path: polygon(92% 0, 100% 50%, 92% 100%, 0 100%, 0 0);
 }
+
+/* Hero */
+.backG {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url("../public/image/bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}

@@ -41,7 +41,7 @@ export default function Test() {
   return (
     <>
       <div
-        className={`px-[6rem] max-w-[400px] sm:max-w-[455px] lg:max-w-[900px] xl:max-w-[1350px]  mx-auto relative`}
+        className={`px-[6rem] max-w-[400px] sm:max-w-[455px] lg:max-w-[900px] xl:max-w-[1350px]  mx-auto relative  my-[8rem] md:my-[10rem] `}
       >
         <Swiper
           slidesPerView={

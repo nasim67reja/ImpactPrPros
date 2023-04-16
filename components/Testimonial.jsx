@@ -5,14 +5,18 @@ import Image from "next/image";
 const Testimonial = () => {
   return (
     <Layout>
-      <div className="mb-[10rem] mt-[20rem]">
-        <h2 className="font-bold text-center text-[3.5rem] md:text-[5rem] mb-[8rem]">
+      <div data-aos="fade-up" className="py-8 my-[8rem] md:my-[10rem] ">
+        <h2
+          className=" 
+        text-[4rem] md:text-[4.8rem] mb-[3rem] md:mb-[4rem] font-bold  text-center
+        "
+        >
           Client Testimonial
         </h2>
-        <div className="flex justify-between gap-[5rem] md:gap-[10rem] flex-wrap sm:flex-nowrap">
+        <div className="flex justify-between gap-[5rem] md:gap-[10rem] flex-wrap sm:flex-nowrap ">
           {/* 1 */}
           <div>
-            <p className="text-[16px] text-center md:text-start leading-[1.5]">
+            <p className="text-[16px] text-center md:text-start leading-[1.5] text-gray-500 font-semibold">
               “A testimonial from a client who benefited from your product or
               service. Testimonials can be a highly effective way of
               establishing credibility and increasing your company's
@@ -25,14 +29,16 @@ const Testimonial = () => {
                   alt="user-img"
                   className="h-[50px] md:h-[70px] w-[50px] md:w-[70px] rounded-full object-cover"
                 />
-                <p className="text-[2rem]">Amelia Jones</p>
+                <p className="text-[2rem] text-gray-500 font-semibold">
+                  Amelia Jones
+                </p>
               </div>
             </div>
           </div>
           {/* 2 */}
 
           <div>
-            <p className="text-[16px] text-center md:text-start leading-[1.5]">
+            <p className="text-[16px] text-center md:text-start leading-[1.5] text-gray-500 font-semibold">
               “A testimonial from a client who benefited from your product or
               service. Testimonials can be a highly effective way of
               establishing credibility and increasing your company's
@@ -45,7 +51,9 @@ const Testimonial = () => {
                   alt="user-img"
                   className="h-[50px] md:h-[70px] w-[50px] md:w-[70px] rounded-full object-cover"
                 />
-                <p className="text-[2rem]">Amelia Jones</p>
+                <p className="text-[16px] font-semibold text-gray-500 ">
+                  Amelia Jones
+                </p>
               </div>
             </div>
           </div>
@@ -53,7 +61,7 @@ const Testimonial = () => {
           {/* 3 */}
 
           <div>
-            <p className="text-[16px] text-center md:text-start leading-[1.5]">
+            <p className="text-[16px] text-center md:text-start leading-[1.5] text-gray-500 font-semibold">
               “A testimonial from a client who benefited from your product or
               service. Testimonials can be a highly effective way of
               establishing credibility and increasing your company's
@@ -66,7 +74,9 @@ const Testimonial = () => {
                   alt="user-img"
                   className="h-[50px] md:h-[70px] w-[50px] md:w-[70px] rounded-full object-cover"
                 />
-                <p className="text-[2rem]">William Nguyen</p>
+                <p className="text-[16px] font-semibold text-gray-500 ">
+                  William Nguyen
+                </p>
               </div>
             </div>
           </div>

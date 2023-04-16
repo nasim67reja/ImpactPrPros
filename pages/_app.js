@@ -2,9 +2,16 @@ import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import "@/styles/globals.css";
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 import Head from "next/head";
+import { useEffect } from "react";
 
 export default function App({ Component, pageProps }) {
+  useEffect(() => {
+    AOS.init({ duration: 800 });
+  }, []);
   return (
     <>
       <Head>
