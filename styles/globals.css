@@ -84,6 +84,10 @@ body {
 .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
   transform: translateY(4px);
 }
+.swiper,
+.swiper-container {
+  padding-bottom: 5rem !important;
+}
 
 /* accordion */
 

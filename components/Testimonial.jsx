@@ -5,11 +5,11 @@ import Image from "next/image";
 const Testimonial = () => {
   return (
     <Layout>
-      <div className="my-[10rem]">
+      <div className="mb-[10rem] mt-[20rem]">
         <h2 className="font-bold text-center text-[3.5rem] md:text-[5rem] mb-[8rem]">
           Client Testimonial
         </h2>
-        <div className="flex justify-between gap-[10rem] flex-wrap sm:flex-nowrap">
+        <div className="flex justify-between gap-[5rem] md:gap-[10rem] flex-wrap sm:flex-nowrap">
           {/* 1 */}
           <div>
             <p className="text-[16px] text-center md:text-start leading-[1.5]">
@@ -18,8 +18,8 @@ const Testimonial = () => {
               establishing credibility and increasing your company's
               reputation.”
             </p>
-            <div className="flex justify-center gap-[2rem] mt-[2rem]">
-              <div className="flex items-center gap-[3rem]">
+            <div className=" mt-[3rem]">
+              <div className="flex items-center md:items-start flex-col gap-[1rem]">
                 <img
                   src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
                   alt="user-img"
@@ -38,8 +38,8 @@ const Testimonial = () => {
               establishing credibility and increasing your company's
               reputation.”
             </p>
-            <div className="flex justify-center gap-[2rem] mt-[2rem]">
-              <div className="flex items-center gap-[3rem]">
+            <div className=" mt-[3rem]">
+              <div className="flex  flex-col items-center md:items-start gap-[1rem]">
                 <img
                   src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
                   alt="user-img"
@@ -59,8 +59,8 @@ const Testimonial = () => {
               establishing credibility and increasing your company's
               reputation.”
             </p>
-            <div className="flex justify-center gap-[2rem] mt-[2rem]">
-              <div className="flex  items-center gap-[3rem]">
+            <div className="mt-[3rem]">
+              <div className="flex flex-col items-center md:items-start gap-[1rem]">
                 <img
                   src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
                   alt="user-img"

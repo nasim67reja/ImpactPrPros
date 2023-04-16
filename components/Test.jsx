@@ -104,19 +104,22 @@ const Slide = ({ data }) => {
           <h4 className="text-[16px] xl:text-[20px] font-semibold text-[#2D2525] text-center">
             {data.heading}
           </h4>
-          <Image
-            width={321}
-            height={188}
-            src={data.image}
-            alt={data.alt}
-            className="w-[90%] sm:w-full h-fit"
-          />
+          <div className="center">
+            <Image
+              width={321}
+              height={188}
+              src={data.image}
+              alt={data.alt}
+              className="w-[90%] sm:w-full h-fit"
+            />
+          </div>
+
           <div>
             <p className="text-t-secondary text-[12px] sm:text-[14px] xl:text-[16px] px-[1rem]">
               {data.description}
             </p>
-            <div className="flex flex-col items-start gap-[2px] mt-[1rem]">
-              <button className="bg-btn-bg text-white rounded-[5px] px-[3.6rem] py-[0.5rem] text-[16px] hover:outline hover:outline-1 hover:bg-white hover:text-t-color transition-all">
+            <div className="center gap-[2px] mt-[1rem]">
+              <button className="bg-btn-bg text-white rounded-[5px] px-[3rem] py-[0.3rem] text-[14px] hover:outline hover:outline-1 hover:bg-white hover:text-t-color transition-all">
                 Read more
               </button>
             </div>

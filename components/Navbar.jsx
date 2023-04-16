@@ -146,7 +146,16 @@ const Navbar = () => {
             {/* Small Screen */}
 
             <nav className={`md:hidden ${menuOpen ? "block" : "hidden"}`}>
-              <ul className="flex flex-col items-center gap-[5rem]   absolute z-10 w-screen left-0 top-0 bg-white pt-[23rem] pb-[10rem] shadow-lg">
+              <ul className="flex flex-col items-center gap-[5rem]   absolute z-10 w-screen left-0 top-0 bg-white pt-[4rem] pb-[10rem] shadow-lg">
+                <li>
+                  <Image
+                    src="/image/impactPr.png"
+                    alt="logo"
+                    width={147}
+                    height={147}
+                    className="w-[80px] sm:w-[100px] sm:h-[100px] md:w-[120px] md:h-[120px] h-[80px] lg:w-[147px] lg:h-[147px]"
+                  />
+                </li>
                 <li className="hover:opacity-75 transition-all ">
                   <a href="#services" onClick={toggleMenu}>
                     Services
